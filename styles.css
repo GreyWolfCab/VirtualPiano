@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+html {
+    background-color: rgb(80, 80, 80);
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+kbd {
+    font-family: 'Goldman', cursive;
+}
+
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 3vw;
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+    border: 1px solid gray;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.white-keys kbd {
+    background-color: white;
+    display: inline-block;
+    width: 4vw;
+    margin: 0px 1px;
+    padding-top: 40vh;
+    padding-bottom: 10vh;
+    border: 1em solid gray;
+    text-align: center;
+    position: relative;
+    top: -27.7vh;
+}
+
+#W {
+    left: -9.3vw;
+}
+
+#E {
+    left: -6.2vw;
+}
+
+#T {
+    right: -3.1vw;
+}
+
+#Y {
+    right: -6.2vw;
+}
+
+#U {
+    right: -9.3vw;
+}
+
+pre {
+    width: 10vw;
+}
